@@ -22,9 +22,18 @@ module.exports = {
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"]
-      }
+      },
+      {  test: /\.vue$/,
+         loader: 'vue-loader'
+       }
     ]
   },
+    resolve: {
+      alias: {
+        'vue$': 'vue/dist/vue.esm.js'
+      },
+      extensions: ['*', '.js', '.vue', '.json']
+    },
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/public/index.html",
