@@ -16,6 +16,18 @@ Links to tutorials used to get this shit up.
 
 - [Preprocessor Vue](https://github.com/vuejs/vue-loader/blob/master/docs/en/configurations/pre-processors.md)
 
+
 ### Prev BP to use Pug files from
 
 - [Link](https://github.com/Tor020/preprosboilerplate)
+
+#### Nanobox Stuff
+
+- [Nanobox](https://dashboard.nanobox.io/)
+
+- install nanobox desktop
+- [Read Guides](https://guides.nanobox.io/)
+
+-[Generic Node](https://guides.nanobox.io/nodejs/generic/)
+-[Express](https://guides.nanobox.io/nodejs/express/)
+-[Vue](https://guides.nanobox.io/javascript/vue/)
