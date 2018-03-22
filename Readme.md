@@ -9,3 +9,13 @@ Links to tutorials used to get this shit up.
 
 - Get it working with Pug
 - Get it working with Sass
+
+
+
+### Ref
+
+- [Preprocessor Vue](https://github.com/vuejs/vue-loader/blob/master/docs/en/configurations/pre-processors.md)
+
+### Prev BP to use Pug files from
+
+- [Link](https://github.com/Tor020/preprosboilerplate)
