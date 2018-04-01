@@ -27,4 +27,6 @@
 - Took gulp file from [reactbp](https://github.com/Tor020/React-Gulp-Boilerplate)
 - Took sass from [gulpbp](https://github.com/Tor020/Gulp-Build-Setup)
 
-#####
+##### Note
+
+- "Gulp added, sass added, gulp pug docs are trash, need to find real example, otherwise all is gud"
