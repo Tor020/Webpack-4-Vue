@@ -1,0 +1,58 @@
+//- https://devhints.io/html-input
+//- http://devdocs.io/html/element/input
+//- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+form.form#form(autocomplete="on")
+  h1 Form
+  fieldset
+    //- Info
+    legend User Form
+
+
+    div.control-group
+      label(for="foo") Name
+      input#foo(type="text", autocomplete="name" placeholder="Enter something here...")
+
+
+    div.control-group
+      label(for="email") Email Address
+      input#email(pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?", autocomplete="email", type="email", placeholder="Email Address")
+
+
+    div.control-group
+      label(for="name") Username
+      input#name(type="text", autocomplete="username", placeholder="Username")
+
+
+    div.control-group
+      label(for="password") Password
+      input#password(type="password", autocomplete ="current-password", placeholder="Password")
+
+
+    //- Checkboxes 
+  fieldset
+
+    //- legend Checkbox Options
+    input(name="interest", type="checkbox", class="radio" id="coding",  value="coding")
+    label(for="coding") Coding
+
+    input( name="interest", type="checkbox", class="radio" id="memes",  value="music")
+    label(for="memes") Memes
+
+    input( name="interest", type="checkbox", class="radio" id="exdeeee",  value="music")
+    label(for="exdeeee") exdeeee
+
+    //- Radiobuttons
+  fieldset
+
+    //- legend Radio Button Options
+    input(name="options" id="choice1" class="checkbox" type="radio", value="option1")
+    label(for="choice1") Option 1 
+
+    input(name="options" id="choice2" class="checkbox" type="radio", value="option2")
+    label(for="choice2") Option 2
+
+    input(name="options" id="choice3" class="checkbox" type="radio", value="option3")
+    label(for="choice3") Option 3
+  button.btn#submit(type="submit") Submit
+
